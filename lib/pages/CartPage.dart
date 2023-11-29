@@ -80,7 +80,7 @@ class CartPage extends StatelessWidget{
                                   ), //TextStyle
                                 ), //Text
                                 Text(
-                                  "\$10",
+                                  "Rp 40.000",
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
@@ -173,7 +173,7 @@ class CartPage extends StatelessWidget{
                                   ), //TextStyle
                                 ), //Text
                                 Text(
-                                  "\$10",
+                                  "Rp 20.000",
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
@@ -266,7 +266,7 @@ class CartPage extends StatelessWidget{
                                   ), //TextStyle
                                 ), //Text
                                 Text(
-                                  "\$10",
+                                  "Rp 30.000",
                                   style: TextStyle(
                                     fontSize: 20,
                                     fontWeight: FontWeight.bold,
@@ -341,7 +341,7 @@ class CartPage extends StatelessWidget{
                                   style: TextStyle(fontSize: 20)
                                 ), //Text
                                 Text(
-                                  "10", 
+                                  "6", 
                                   style: TextStyle(fontSize: 20)
                                 ), //Text
                               ],
@@ -362,7 +362,7 @@ class CartPage extends StatelessWidget{
                                   style: TextStyle(fontSize: 20)
                                 ), //Text
                                 Text(
-                                  "\$60", 
+                                  "Rp 180.000", 
                                   style: TextStyle(fontSize: 20)
                                 ), //Text
                               ],
@@ -383,7 +383,7 @@ class CartPage extends StatelessWidget{
                                   style: TextStyle(fontSize: 20)
                                 ), //Text
                                 Text(
-                                  "\$20", 
+                                  "Rp 5.000", 
                                   style: TextStyle(fontSize: 20)
                                 ), //Text
                               ],
@@ -407,7 +407,7 @@ class CartPage extends StatelessWidget{
                                   ), //TextStyle
                                 ), //Text
                                 Text(
-                                  "\$80", 
+                                  "Rp 185.000", 
                                   style: TextStyle(
                                     fontSize: 20, 
                                     fontWeight: FontWeight.bold,
