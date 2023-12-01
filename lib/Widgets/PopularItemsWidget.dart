@@ -61,28 +61,13 @@ class PopularItemsWidget extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Diskon 20%:",
+                              "Diskon 20%: Rp 25.000",
                               style: TextStyle(
                                 fontSize: 17,
                                 color: Colors.red,
                                 fontWeight: FontWeight.bold,   
                               ), // TextStyle
-                            ), // Text
-                            Text(
-                              "Rp 25.000",
-                              style: TextStyle(
-                                fontSize: 17,
-                                color: Colors.red,
-                                fontWeight: FontWeight.bold,   
-                              ), // TextStyle
-                            ), // Text
-                            
-
-                            Icon(
-                              Icons.favorite_border,
-                              color: Colors.red,
-                              size: 26,
-                              ), // Icon
+                            ),
                           ]
                         ), // Row
                       ]
@@ -147,13 +132,7 @@ class PopularItemsWidget extends StatelessWidget {
                                 color: Colors.red,
                                 fontWeight: FontWeight.bold,   
                               ), // TextStyle
-                            ), // Text
-
-                            Icon(
-                              Icons.favorite_border,
-                              color: Colors.red,
-                              size: 26,
-                              ), // Icon
+                            ), // Textcon
                           ]
                         ), // Row
                       ]
@@ -219,12 +198,6 @@ class PopularItemsWidget extends StatelessWidget {
                                 fontWeight: FontWeight.bold,   
                               ), // TextStyle
                             ), // Text
-
-                            Icon(
-                              Icons.favorite_border,
-                              color: Colors.red,
-                              size: 26,
-                              ), // Icon
                           ]
                         ), // Row
                       ]

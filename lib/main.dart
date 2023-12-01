@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:restaurant_menu_and_order_apps/pages/AccountPage.dart';
 import 'package:restaurant_menu_and_order_apps/pages/CartPage.dart';
 import 'package:restaurant_menu_and_order_apps/pages/HomePage.dart';
 import 'package:restaurant_menu_and_order_apps/pages/ItemPageAppetizer.dart';
@@ -8,6 +9,7 @@ import 'package:restaurant_menu_and_order_apps/pages/ItemPageIkan.dart';
 import 'package:restaurant_menu_and_order_apps/pages/ItemPageMie.dart';
 import 'package:restaurant_menu_and_order_apps/pages/ItemPageMinuman.dart';
 import 'package:restaurant_menu_and_order_apps/pages/ItemPageNasi.dart';
+import 'package:restaurant_menu_and_order_apps/pages/SettingsPage.dart';
 import 'package:restaurant_menu_and_order_apps/pages/SplashScreen.dart';
 
 void main() {
@@ -36,6 +38,8 @@ class MyApp extends StatelessWidget {
         "itemPageAppetizer": (context) => ItemPageAppetizer(),
         "itemPageDessert": (context) => ItemPageDessert(),
         "itemPageMinuman": (context) => ItemPageMinuman(),
+        "accountPage": (context) => AccountPage(),
+        "settingsPage": (context) => SettingsPage(),
       },
     );
   }
